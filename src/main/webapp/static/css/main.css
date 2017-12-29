@@ -1,0 +1,89 @@
+body {
+	font-size: 16px;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+a:focus {
+	outline: none;
+}
+
+.fa.toggle-button {
+	color: black;
+}
+
+.fa.edit-button {
+	color: blue;
+}
+
+.fa.remove-button {
+	color: red;
+	margin-left: 5px;
+}
+
+table.datatable,
+table.datatable td,
+table.datatable th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table.datatable {
+	margin-top: 15px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.datatable th,
+table.datatable td {
+    padding: 5px;
+}
+
+table.datatable tr.done {
+    background-color: #baffba;
+}
+
+table.datatable tr.undone {
+    background-color: #ffcaca;
+}
+
+button, input.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:#ffffff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+fieldset#editForm {
+	margin: 12px 0 0 0;
+	border: 1px solid #ddd;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type=text] {
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
